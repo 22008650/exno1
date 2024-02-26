@@ -50,7 +50,7 @@ for column in columns_with_null:
 data.isnull().sum().sum()
 ```
 ![ds4](https://github.com/22008650/exno1/assets/122548204/51de8fe7-4ff1-4998-b6bb-f6d0c9e56583)
-##IQR
+# IQR
 ```
 import pandas as pd
 import seaborn as sns
@@ -87,7 +87,7 @@ delid
 sns.boxplot(x='sepal_width',data=delid)
 ```
 ![image](https://github.com/22008650/exno1/assets/122548204/f3c2249e-d647-4b3b-bb99-0589d94b0679)
-#Z Score
+# Z Score
 ```
 import matplotlib.pyplot as plt
 import pandas as pd
